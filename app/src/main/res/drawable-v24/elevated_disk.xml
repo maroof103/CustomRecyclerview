@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bottom 15dp Shadow (bottom shadow) -->
+    <item>
+        <shape  android:shape="oval">
+
+            <!-- Button Shadow Color -->
+            <solid android:color="#CDBC2A" />
+
+
+        </shape>
+    </item>
+
+    <!-- White Top color -->
+    <item android:bottom="20px"
+        android:right="2px"
+        android:left="2px">
+
+        <shape  android:shape="oval">
+            <!-- Button TOP Color -->
+            <solid android:color="#FFEB3B" />
+            <corners android:radius="99dp" />
+        </shape>
+
+    </item>
+
+
+
+</layer-list>
